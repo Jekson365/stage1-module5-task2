@@ -6,4 +6,5 @@ import java.util.List;
 public interface Operation<T> {
 
     List<T> apply(List<T> arg);
+
 }
